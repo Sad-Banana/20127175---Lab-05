@@ -4,6 +4,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+	background-color: white;
 }
 
 .container {
@@ -11,6 +12,11 @@ body, html {
 }
 
 #c, #v {
-    max-width: 50%;
-    height: auto;
+	margin-left: 13%;
+    width: 30%;
+    height: 30%;
+}
+
+#c {
+    margin-right: 2%; /* Khoảng cách giữa canvas và video */
 }

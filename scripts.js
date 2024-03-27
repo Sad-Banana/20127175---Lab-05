@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Phát hiện biên cạnh bằng thuật toán Canny
         var edgeData = new Uint8ClampedArray(canvas.width * canvas.height);
-        var threshold1 = 10; // Ngưỡng dưới
-        var threshold2 = 50; // Ngưỡng trên
+        var threshold1 = 50; // Ngưỡng dưới
+        var threshold2 = 200; // Ngưỡng trên
         for (var i = 0; i < canvas.width * canvas.height; i++) {
             edgeData[i] = 255; // Nền trắng
         }
